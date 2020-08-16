@@ -121,7 +121,9 @@ class LinkedList:
             ll.append(current.data)
             current = current.next
         print(ll)
-
+        
+    def clear(self):
+        self.head = None
 
 ll = LinkedList()
 ll.insert_at_beg(7)
